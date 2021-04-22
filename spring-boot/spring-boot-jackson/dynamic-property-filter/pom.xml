@@ -13,6 +13,7 @@
     <groupId>io.github.alotool.tutorials</groupId>
     <artifactId>dynamic-property-filter</artifactId>
     <version>0.0.1</version>
+    <packaging>jar</packaging>
     <name>dynamic-property-filter</name>
     <description>dynamic-property-filter</description>
 
