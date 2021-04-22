@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.github.alotool.tutorials</groupId>
+    <artifactId>spring-boot-jackson</artifactId>
+    <version>0.0.1</version>
+    <packaging>pom</packaging>
+    <name>spring-boot-jackson</name>
+    <description>spring-boot-jackson</description>
+    <url>https://github.com/alotool/tutorials/</url>
+    <inceptionYear>2021</inceptionYear>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://github.com/alotool/tutorials/blob/main/LICENSE</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>Alotool</name>
+        <url>https://alotool.github.io</url>
+    </organization>
+
+    <developers>
+        <developer>
+            <id>alotool</id>
+            <name>Alotool</name>
+            <url>https://alotool.github.io</url>
+            <organization>Alotool</organization>
+            <organizationUrl>https://alotool.github.io</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <url>https://github.com/alotool/tutorials/</url>
+        <connection>scm:git:https://github.com/alotool/tutorials/</connection>
+    </scm>
+
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo1.maven.org/maven2</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>central-apache</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>spring-repo</id>
+            <name>Spring Repository</name>
+            <url>https://repo.spring.io/release</url>
+        </repository>
+        <repository>
+            <id>github</id>
+            <name>GitHub alotool Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/alotool/tutorials</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+    </pluginRepositories>
+
+    <properties>
+        <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+        <!-- Properties build -->
+        <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+        <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+        <!-- Properties dependency versions -->
+        <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+        <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+        <!-- Properties maven plugin versions -->
+        <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    </properties>
+
+    <modules>
+        <module>dynamic-property-filter</module>
+    </modules>
+
+</project>
